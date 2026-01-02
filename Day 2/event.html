@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+</head>
+<body>
+    <section>
+        <h1>Events Schedule</h1>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th colspan="3">Event Details</th>
+                </tr>
+                <tr>
+                    <th>Time</th>
+                    <th>Activity</th>
+                    <th>Venue</th>
+                </tr>
+            </thead>
+             
+            <tbody>
+                <tr>
+                    <td>10:00 AM</td>
+                    <td>Opening Ceremony</td>
+                    <td>Auditorium</td>
+                </tr>
+                <tr>
+                    <td>12:00 PM</td>
+                    <td>CodeUtsav Orientation</td>
+                    <td>Auditorium</td>
+                </tr>
+                <tr>
+                    <td>2:00 PM</td>
+                    <td>Code Battle</td>
+                    <td>CCC</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+
+    <section>
+        <h1>Registration Form</h1>
+        <form action="">
+
+            <label for="name"><b> Name:</b></label>
+            <input type="text" id="name" placeholder="Enter name" name="name" required>
+            <br><br>
+
+            <label for="email"><b>Email Address:</b></label>
+            <input type="email" id="email" placeholder="Enter emal" name="email"required>
+            <br><br>
+
+            <label for="number"><b>Phone Number:</b></label>
+            <input type="number" name="number" id="number" name="number" placeholder="Enter number"required>
+            <br><br>
+
+            <label for="date"><b>Date of Birth:</b></label>
+            <input type="date" name="date" id="date">
+            <br>
+
+            <p><b>Ticket Type:</b></p>
+
+            <input type="radio" id="student" name="ticket" value="student">
+            <label for="student">Student</label><br>
+             
+            <input type="radio" id="teacher"  name="ticket" value="teacher">
+            <label for="teacher">Teacher</label><br>
+
+            <input type="radio" id="vip" name="ticket" value="vip">
+            <label for="vip">VIP</label>
+
+            <p><b>Workshop Preference:</b></p>
+
+            <input type="checkbox" id="web" name="workshop" value="web">
+            <label for="web">Web Development</label><br>
+
+            <input type="checkbox" id="ai" name="workshop" value="ai">
+            <label for="ai">Artificial Intelligence</label><br>
+
+            <input type="checkbox" id="data" name="workshop" value="data">
+            <label for="data">Data Science</label><br><br>
+
+            <label for="comment">Comments:</label><br>
+            <textarea name="comment" id="comment" placeholder="Ener your comment here" rows="5" cols="50"></textarea><br><br>
+
+            <button type="submit">Register</button>
+        
+        </form>
+
+    </section>
+</body>
+</html>
