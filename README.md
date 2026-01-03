@@ -11,4 +11,10 @@ Day 1-
 <br>
 Day 2-
 <img width="1920" height="1200" alt="Image" src="https://github.com/user-attachments/assets/6286aa84-1aeb-439b-a774-cfd144efaabf" />
+<br>
+Day 3-
+<img width="1920" height="1200" alt="Image" src="https://github.com/user-attachments/assets/6f87dda7-2ff5-4ea0-b29c-30b1fa2c76d0" />
+<img width="1920" height="1200" alt="Image" src="https://github.com/user-attachments/assets/6bd421b2-639d-4915-b653-df383be5dd2d" />
+<img width="1920" height="1200" alt="Image" src="https://github.com/user-attachments/assets/219ffcec-1e06-465c-9ace-d38272a54e23" />
+
 
